@@ -4,23 +4,31 @@
 <head>
     <title>My profile</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/x-icon" href="D:\angular\Myprofile\resorces\fevicon.jpg">
 </head>
 <style>
-    .header{
-        font-size: 20px;
-        padding: 6px 30px 6px 30px;
+    /* .header {
+        font-size: 17px;
+
         color: white;
-       
+        background-color: rgb(113, 54, 32);
+        margin-bottom: 5px;
+        text-align:center;
+
+
+
     }
-header{
-    background-color: rgb(113, 54, 32);
-}
+
+    p {
+        display: inline-block;
+        padding: 2px 20px 2px 20px;
+        margin: 0px 20px 0px 20px;
+    }
 
 
 
@@ -31,62 +39,150 @@ header{
 
     footer {
         background-color: rgb(249, 126, 39);
-        text-align:left;
+        text-align: left;
         padding: 4px 20px 4px 20px;
         border-bottom: 4px solid rgb(0, 12, 143);
 
     }
 
-.frame {
-        background-color: rgb(10, 1, 136);
-        font-family: 'Roboto', sans-serif;
-        border-bottom: 3px solid red;
+    .frame {
        
-        color: white; 
-        padding: 3px 20px 3px 20px;
-        font-size: 15px;
-        
-   
+        background-color: rgba(4, 6, 113, 0.974);
+        border-bottom: 2px solid red;
+        border-radius: 7px;
+        box-sizing: border-box;
+        width: 150px;
+        height:100% vh;
+       
+    }
 
-      
+    .navbar {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        padding: 8px 20px 8px 20px;
+        font-size: 17px;
+        margin: auto;
+        display: block;
+        text-decoration: none;
+       
 
     }
 
+
+
+
+
+    input {
+        background-color: white !important;
+        border-top: 2px solid red;
+        float: right;
+        
+        margin: 1px 10px 4px 10px;
+
+    }
+ iframe{
+    float: ;
+    width: calc(100%-200px);
+    display: inline-block;
+ }
+     */
+  nav{
+    background-color: rgb(11, 11, 109);
     
- 
+    display:inline-block;
+    position: relative;
+    left: 0%;
+    height: 80vh;
     
+    width: 20vw;
+    z-index: 5;
+    
+
+  }
+  .navbar{
+    color: white;
+    display: block;
+    padding: 7px 20px 5px 20px;
+    font: size 6em;
+    text-decoration: none;
+    width: 17vw;
+  }
+
+    iframe {
+        border: none;
+        background-color: rgb(59, 142, 190);
+        height: 80vh;
+        width: 80vw;
+
+     
+        position: absolute;
+        left: 20.5vw;
+        top: 8vh;
+       
+   
+        float: right;
+    }
+
+
+
+
+
+    .frame {
+        display: inline-block;
+    }
+    p{
+        display: inline;
+        text-align: right;
+        padding: 5px 20px 0px 20px;
+     box-sizing: border-box;
+        width: 15vw;
+        font-size:larger
+        text-decoration: none;
+
+    }
+    .header{
+        text-align: right;
+        background-color: rgba(0, 0, 0, 0.7);
+        
+        color: white;
+        height: 6vh;
+        width: 100vw;
+        margin: 0%;
+        border-bottom: 3px solid red;
+    }
 </style>
 
 <body>
 
     <header>
-        <div>
-            <span class="header"> <i class="fa-solid fa-user"></i>:Vitthal kale </span>
-            <span class="header"> <i class="fa-solid fa-envelope"></i>:vitthala575@gmail.com</span>
-            <span class="header"> <i class="fa-solid fa-mobile-retro"></i>:7020-4753-07</span>
+        <div class="header">
+            <p> <i class="fa-solid fa-user"></i>:Vitthal kale </p>
+            <p> <i class="fa-solid fa-envelope"></i>:vitthala575@gmail.com</p>
+            <p> <i class="fa-solid fa-mobile-retro"></i>:7020-4753-07</p>
         </div>
     </header>
-    <hr>
-    <nav class="frame">
-        <a class="frame" href="home.html" target="myframe" >Home page</a>
-        <a class="frame" href="techstack.html" target="myframe" >Tech_stack</a>
-        <a class="frame" href="Education.html" target="myframe" >Education</a>
-        <a class="frame" href="Project.html" target="myframe" >Project</a>
-        <a class="frame" href="hobbies.html" target="myframe" >Hobbies</a>
-        <a class="frame" href="personalDetails.html" target="myframe" >Personal detail</a>
-        <a class="frame" href="others.html" target="myframe" >Others</a>
-    </nav>
-    <div>
-        <iframe name="myframe" height="350" width="1150"
-            style="border:none bac;background-color:rgb(223, 220, 215);"></iframe>
-    </div>
+    <section>
+        <nav class="frame">
+            <a class="navbar" href="home.html" target="myframe">Home page</a>
+            <a class="navbar" href="techstack.html" target="myframe">Tech_stack</a>
+            <a class="navbar" href="Education.html" target="myframe">Education</a>
+            <a class="navbar" href="Project.html" target="myframe">Project</a>
+            <a class="navbar" href="hobbies.html" target="myframe">Hobbies</a>
+            <a class="navbar" href="personalDetails.html" target="myframe">Personal detail</a>
+            <a class="navbar" href="others.html" target="myframe">Others</a>
+            <input class="navbar" type="search" placeholder="&#128270;Serch here">
+        </nav>
+        <div class="frame">
+            <iframe name="myframe"></iframe>
+        </div>
+    </section>
     <footer>
         follow me:
-        <span class="icon"> <a href="https://www.facebook.com/vitthal.kale.9028"> <i
+        <span class="icon"><a href="https://www.facebook.com/vitthal.kale.9028"><i
                     class="fa-brands fa-facebook-square"></i></a></span>
-        <span class="icon"> <a href="https://www.instagram.com/vitthala575/"> <i
+        <span class="icon"><a href="https://www.instagram.com/vitthala575/"><i
                     class="fa-brands fa-instagram-square"></i></a></span>
-        <span class="icon"> <a href="https://twitter.com/i/flow/single_sign_on"> <i
+        <span class="icon"><a href="https://twitter.com/i/flow/single_sign_on"><i
                     class="fa-brands fa-twitter"></i></a></span>
 
     </footer>
